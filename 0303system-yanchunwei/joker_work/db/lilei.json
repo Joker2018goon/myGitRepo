@@ -1,0 +1,9 @@
+{
+    "username": "lilei",
+    "password": "123qwe",
+    "type": "user",
+    "operation": [
+        "image"
+    ],
+    "enabled": 1
+}

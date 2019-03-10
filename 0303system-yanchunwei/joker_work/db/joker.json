@@ -1,0 +1,10 @@
+{
+    "username": "joker",
+    "password": "123qwe",
+    "type": "admin",
+    "operation": [
+        "权限管理",
+        "image"
+    ],
+    "enabled": 1
+}

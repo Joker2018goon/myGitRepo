@@ -1,0 +1,5 @@
+2018-08-24 00:28:27,687 [INFO] Joker-Log {background.py line:73}  ->>>>> 进入crawler页面
+2018-08-24 00:28:51,741 [ERROR] Joker-Log {background.py line:85}  ->>>>> invalid literal for int() with base 10: '*******************************************欢迎来到51备忘录登录页面********************************************'
+2018-08-24 00:29:49,481 [ERROR] Joker-Log {background.py line:85}  ->>>>> invalid literal for int() with base 10: ''
+2018-08-24 00:31:18,054 [INFO] Joker-Log {authority_management.py line:37}  ->>>>> 进入角色管理页面
+2018-08-24 00:31:18,054 [INFO] Joker-Log {background.py line:69}  ->>>>> 进入权限管理页面

@@ -1,0 +1,4 @@
+2018-07-21 23:05:30,470 [INFO] Joker-Log {login_page.py line:98}  ->>>>> 登录成功，跳转到操作页面
+2018-07-21 23:05:36,923 [INFO] Joker-Log {login_page.py line:147}  ->>>>> 正在新增备忘事件
+2018-07-21 23:06:54,256 [INFO] Joker-Log {login_page.py line:168}  ->>>>> 退出系统
+2018-07-21 23:06:56,167 [INFO] Joker-Log {login_page.py line:150}  ->>>>> 查询备忘事件

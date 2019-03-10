@@ -1,0 +1,13 @@
+2018-08-02 03:33:52,975 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-08-02 03:38:43,661 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-08-02 03:45:05,521 [ERROR] Joker-Log {query_api.py line:43}  ->>>>> from_month data type error
+2018-08-02 03:45:05,521 [ERROR] Joker-Log {query_api.py line:55}  ->>>>> to_month data type error
+2018-08-02 03:46:24,367 [ERROR] Joker-Log {query_api.py line:43}  ->>>>> from_month data type error
+2018-08-02 03:46:24,367 [ERROR] Joker-Log {query_api.py line:55}  ->>>>> to_month data type error
+2018-08-02 03:46:24,382 [ERROR] Joker-Log {query_api.py line:61}  ->>>>> from_month should not greater than to_month
+2018-08-02 03:53:26,062 [INFO] Joker-Log {query_api.py line:87}  ->>>>> query success.result:[{'date': '2018-01-13 00:43:35', 'event': 'test', 'time': '15'}]
+2018-08-02 03:53:26,062 [INFO] Joker-Log {query_api.py line:87}  ->>>>> query success.result:[{'date': '2018-01-13 00:43:35', 'event': 'test', 'time': '15'}, {'date': '2018-02-22 00:44:19', 'event': 'test', 'time': '62'}]
+2018-08-02 03:53:26,077 [INFO] Joker-Log {query_api.py line:87}  ->>>>> query success.result:[{'date': '2018-01-13 00:43:35', 'event': 'test', 'time': '15'}, {'date': '2018-02-22 00:44:19', 'event': 'test', 'time': '62'}, {'date': '2019-03-26 00:44:19', 'event': 'test', 'time': '66'}]
+2018-08-02 03:53:26,077 [INFO] Joker-Log {query_api.py line:87}  ->>>>> query success.result:[{'date': '2018-01-13 00:43:35', 'event': 'test', 'time': '15'}, {'date': '2018-02-22 00:44:19', 'event': 'test', 'time': '62'}, {'date': '2019-03-26 00:44:19', 'event': 'test', 'time': '66'}, {'date': '0018-04-21 00:44:19', 'event': 'test', 'time': '42'}]
+2018-08-02 03:53:26,077 [INFO] Joker-Log {query_api.py line:87}  ->>>>> query success.result:[{'date': '2018-01-13 00:43:35', 'event': 'test', 'time': '15'}, {'date': '2018-02-22 00:44:19', 'event': 'test', 'time': '62'}, {'date': '2019-03-26 00:44:19', 'event': 'test', 'time': '66'}, {'date': '0018-04-21 00:44:19', 'event': 'test', 'time': '42'}, {'date': '2013-05-13 03:22:11', 'event': 'test', 'time': '35'}]
+2018-08-02 03:54:41,799 [INFO] Joker-Log {query_api.py line:87}  ->>>>> query success.result:[{'date': '2018-01-13 00:43:35', 'event': 'test', 'time': '15'}, {'date': '2018-02-22 00:44:19', 'event': 'test', 'time': '62'}, {'date': '2019-03-26 00:44:19', 'event': 'test', 'time': '66'}, {'date': '0018-04-21 00:44:19', 'event': 'test', 'time': '42'}, {'date': '2013-05-13 03:22:11', 'event': 'test', 'time': '35'}]

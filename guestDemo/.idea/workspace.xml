@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="686dd50f-a641-45c6-acc9-17981f773d01" name="Default" comment="commit view_if.py">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../FAFULI-test/db_fixture/test_data_huaimei.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../automation_framework_demo-master/.idea/automation_framework_demo-master.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../automation_framework_demo-master/.idea/dictionaries/yanchunwei.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../automation_framework_demo-master/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../automation_framework_demo-master/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../automation_framework_demo-master/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../pytest/interface/get_guest_list_test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../pytest/interface/user_sign_test.py" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../MockDemoNew/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MockDemoNew/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../StudyPy/.idea/StudyPy.iml" afterPath="$PROJECT_DIR$/../StudyPy/.idea/StudyPy.iml" />
+      <change beforePath="$PROJECT_DIR$/../StudyPy/.idea/misc.xml" afterPath="$PROJECT_DIR$/../StudyPy/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../StudyPy/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../StudyPy/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/guestDemo.iml" afterPath="$PROJECT_DIR$/.idea/guestDemo.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/guestDemo/settings.py" afterPath="$PROJECT_DIR$/guestDemo/settings.py" />
+      <change beforePath="$PROJECT_DIR$/guestDemo/urls.py" afterPath="$PROJECT_DIR$/guestDemo/urls.py" />
+      <change beforePath="$PROJECT_DIR$/sign/__init__.py" afterPath="$PROJECT_DIR$/sign/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/sign/admin.py" afterPath="$PROJECT_DIR$/sign/admin.py" />
+      <change beforePath="$PROJECT_DIR$/sign/models.py" afterPath="$PROJECT_DIR$/sign/models.py" />
+      <change beforePath="$PROJECT_DIR$/sign/views.py" afterPath="$PROJECT_DIR$/sign/views.py" />
+      <change beforePath="$PROJECT_DIR$/sign/views_if.py" afterPath="$PROJECT_DIR$/sign/views_if.py" />
+      <change beforePath="$PROJECT_DIR$/../projectTest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../projectTest/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../pyrequest-master/.idea/misc.xml" afterPath="$PROJECT_DIR$/../pyrequest-master/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../pyrequest-master/.idea/pyrequest-master.iml" afterPath="$PROJECT_DIR$/../pyrequest-master/.idea/pyrequest-master.iml" />
+      <change beforePath="$PROJECT_DIR$/../pyrequest-master/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../pyrequest-master/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../pytest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../pytest/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../pytest/HTMLTestRunner.py" afterPath="$PROJECT_DIR$/../pytest/HTMLTestRunner.py" />
+      <change beforePath="$PROJECT_DIR$/../pytest/db_config.ini" afterPath="$PROJECT_DIR$/../pytest/db_config.ini" />
+      <change beforePath="$PROJECT_DIR$/../pytest/db_fixture/mysql_db.py" afterPath="$PROJECT_DIR$/../pytest/db_fixture/mysql_db.py" />
+      <change beforePath="$PROJECT_DIR$/../pytest/db_fixture/test_data.py" afterPath="$PROJECT_DIR$/../pytest/db_fixture/test_data.py" />
+      <change beforePath="$PROJECT_DIR$/../pytest/interface/add_event_test.py" afterPath="$PROJECT_DIR$/../pytest/interface/add_event_test.py" />
+      <change beforePath="$PROJECT_DIR$/../pytest/interface/add_guest_test.py" afterPath="$PROJECT_DIR$/../pytest/interface/add_guest_test.py" />
+      <change beforePath="$PROJECT_DIR$/../pytest/interface/get_event_list_test.py" afterPath="$PROJECT_DIR$/../pytest/interface/get_event_list_test.py" />
+      <change beforePath="$PROJECT_DIR$/../pytest/report/2018-01-29 16_56_35_result.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../pytest/report/2018-01-30 14_34_46_result.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../pytest/report/2018-01-31 16_03_33_result.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../pytest/report/2018-01-31 16_05_14_result.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../pytest/report/2018-01-31 16_07_05_result.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../pytest/report/2018-01-31 16_12_52_result.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../pytest/report/2018-01-31 16_44_22_result.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../pytest/report/2018-02-07 20_58_34_result.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../pytest/run_tests.py" afterPath="$PROJECT_DIR$/../pytest/run_tests.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/guestDemo$interface_test.coverage" NAME="interface_test Coverage Results" MODIFIED="1517378998190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/guestDemo$Test__sign_tests_ModelTest_test_event_models.coverage" NAME="Test: sign.tests.ModelTest.test_event_models Coverage Results" MODIFIED="1516781226133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/guestDemo$11.coverage" NAME="11 Coverage Results" MODIFIED="1517279522644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sign" />
+    <SUITE FILE_PATH="coverage/guestDemo$Test__sign_tests_IndexTest.coverage" NAME="Test: sign.tests.IndexTest Coverage Results" MODIFIED="1516781971798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/guestDemo$Test__sign_tests_ModelTest.coverage" NAME="Test: sign.tests.ModelTest Coverage Results" MODIFIED="1516781282612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/guestDemo$Test__sign_tests_LoginActionTest_test_login_action_username_password_error.coverage" NAME="Test: sign.tests.LoginActionTest.test_login_action_username_password_error Coverage Results" MODIFIED="1516784673674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/guestDemo$Test__sign_tests_ModelTest_test_guest_models.coverage" NAME="Test: sign.tests.ModelTest.test_guest_models Coverage Results" MODIFIED="1516781195334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Continuum/miniconda3/envs/joker/Lib/site-packages/django/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guestDemo/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guestDemo/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <folding>
+                <element signature="e#226#235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guestDemo/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views_if.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sign/views_if.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sign/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="7" column="60" lean-forward="false" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guestDemo/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1804">
+              <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>contacts</find>
+      <find>guests</find>
+      <find>guest_list</find>
+      <find>resu</find>
+      <find>da</find>
+      <find>urlpatterns</find>
+      <find>form</find>
+      <find>ValidationError</find>
+      <find>event_list</find>
+      <find>events</find>
+      <find>`</find>
+      <find>get_event_list</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>events</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <push-targets>
+      <push-target-info target-remote="myRemote" target-branch="master" repo="$PROJECT_DIR$/.." source="master" />
+    </push-targets>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sign/admin.py" />
+        <option value="$PROJECT_DIR$/sign/templates/guest_manage.html" />
+        <option value="$PROJECT_DIR$/sign/templates/sign_index.html" />
+        <option value="$PROJECT_DIR$/sign/tests.py" />
+        <option value="$PROJECT_DIR$/sign/urls.py" />
+        <option value="$PROJECT_DIR$/guestDemo/urls.py" />
+        <option value="$PROJECT_DIR$/sign/11.py" />
+        <option value="$PROJECT_DIR$/tests/interface_test.py" />
+        <option value="$PROJECT_DIR$/sign/templates/event_manage.html" />
+        <option value="$PROJECT_DIR$/sign/views.py" />
+        <option value="$PROJECT_DIR$/sign/models.py" />
+        <option value="$PROJECT_DIR$/sign/views_if.py" />
+        <option value="$PROJECT_DIR$/guestDemo/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-86" />
+    <option name="y" value="-753" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="guestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guestDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="guestDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pytest" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pyWorkspace\guestDemo\sign" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.guestDemo">
+    <configuration name="Test: sign.tests.IndexTest" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="guestDemo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="sign.tests.IndexTest" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
+    <configuration name="Test: sign.tests.LoginActionTest.test_login_action_username_password_error" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="guestDemo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="sign.tests.LoginActionTest.test_login_action_username_password_error" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
+    <configuration name="Test: sign.tests.ModelTest" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="guestDemo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="sign.tests.ModelTest" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
+    <configuration name="11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sign" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="guestDemo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sign/11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="interface_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="guestDemo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/interface_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="guestDemo" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="guestDemo.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="guestDemo" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Django server.guestDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Django tests.Test: sign.tests.ModelTest" />
+      <item index="2" class="java.lang.String" itemvalue="Django tests.Test: sign.tests.IndexTest" />
+      <item index="3" class="java.lang.String" itemvalue="Django tests.Test: sign.tests.LoginActionTest.test_login_action_username_password_error" />
+      <item index="4" class="java.lang.String" itemvalue="Python.interface_test" />
+      <item index="5" class="java.lang.String" itemvalue="Python.11" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.interface_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.11" />
+        <item index="2" class="java.lang.String" itemvalue="Django tests.Test: sign.tests.LoginActionTest.test_login_action_username_password_error" />
+        <item index="3" class="java.lang.String" itemvalue="Django tests.Test: sign.tests.IndexTest" />
+        <item index="4" class="java.lang.String" itemvalue="Django tests.Test: sign.tests.ModelTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="686dd50f-a641-45c6-acc9-17981f773d01" name="Default" comment="" />
+      <created>1516689746214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516689746214</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit guestDemo">
+      <created>1518192225028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518192225028</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit guestDemo">
+      <created>1518193205747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518193205747</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit guestDemo">
+      <created>1518194769979</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518194769979</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit guestDemo">
+      <created>1518197035936</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1518197035936</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit view_if.py">
+      <created>1518403565533</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1518403565533</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__sign_tests_IndexTest - 2018.01.24 at 16h 19m 07s.xml">
+      <configuration name="Test: sign.tests.IndexTest" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__sign_tests_IndexTest - 2018.01.24 at 16h 19m 32s.xml">
+      <configuration name="Test: sign.tests.IndexTest" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__sign_tests_LoginActionTest_test_login_action_username_password_error - 2018.01.24 at 17h 04m 34s.xml">
+      <configuration name="Test: sign.tests.LoginActionTest.test_login_action_username_password_error" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__sign_tests_ModelTest - 2018.01.24 at 16h 05m 30s.xml">
+      <configuration name="Test: sign.tests.ModelTest" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__sign_tests_ModelTest - 2018.01.24 at 16h 07m 51s.xml">
+      <configuration name="Test: sign.tests.ModelTest" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__sign_tests_ModelTest - 2018.01.24 at 16h 08m 03s.xml">
+      <configuration name="Test: sign.tests.ModelTest" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__sign_tests_ModelTest_test_event_models - 2018.01.24 at 16h 07m 07s.xml">
+      <configuration name="Test: sign.tests.ModelTest.test_event_models" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__sign_tests_ModelTest_test_guest_models - 2018.01.24 at 16h 05m 44s.xml">
+      <configuration name="Test: sign.tests.ModelTest.test_guest_models" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__sign_tests_ModelTest_test_guest_models - 2018.01.24 at 16h 06m 36s.xml">
+      <configuration name="Test: sign.tests.ModelTest.test_guest_models" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-82" y="-908" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49588138" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.49092284" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2702366" sideWeight="0.49092284" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24444444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38714993" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@guestDemo" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24671052" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="commit guestDemo" />
+    <MESSAGE value="commit view_if.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit view_if.py" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/contrib/admin/sites.py</url>
+          <line>198</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="30" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Python.DjangoServer">
+        <watch expression="request" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/utils/autoreload.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/requests-2.18.1-py2.7.egg/requests/models.py" />
+    <entry file="file://E:/Python27/Lib/json/__init__.py" />
+    <entry file="file://E:/Python27/Lib/json/decoder.py" />
+    <entry file="file://$PROJECT_DIR$/sign/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign/migrations/0002_auto_20180131_1358.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/core/exceptions.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/contrib/admin/__init__.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/views/decorators/cache.py" />
+    <entry file="file://E:/Python27/Lib/functools.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/contrib/admin/options.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/utils/decorators.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/conf/__init__.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/middleware/csrf.py" />
+    <entry file="file://E:/Python27/Lib/re.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/utils/encoding.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/contrib/admin/sites.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/db/models/options.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/utils/tree.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/db/models/sql/query.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/db/models/fields/__init__.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/dispatch/dispatcher.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/db/utils.py" />
+    <entry file="file://E:/Python27/Lib/encodings/utf_8.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/db/models/base.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/db/models/manager.py" />
+    <entry file="file://E:/Python27/Lib/SocketServer.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/db/models/query.py" />
+    <entry file="file://E:/Python27/Lib/site-packages/Django-1.10.8-py2.7.egg/django/utils/datastructures.py" />
+    <entry file="file://$PROJECT_DIR$/sign/migrations/0002_auto_20180207_2158.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/interface_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/stress_testing.py" />
+    <entry file="file://$PROJECT_DIR$/sign/templates/event_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1039">
+          <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign/templates/guest_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="80" column="40" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="114" column="41" lean-forward="true" selection-start-line="114" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/miniconda3/envs/joker/Lib/site-packages/django/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/miniconda3/envs/joker/Lib/site-packages/django/db/backends/mysql/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guestDemo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1804">
+          <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guestDemo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guestDemo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign/views_if.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="60" lean-forward="false" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guestDemo/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#226#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

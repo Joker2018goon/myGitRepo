@@ -1,0 +1,11 @@
+{
+    "username": "admin",
+    "password": "admin",
+    "type": "admin",
+    "operation": [
+        "权限管理",
+        "crawler",
+        "office",
+        "image"
+    ]
+}

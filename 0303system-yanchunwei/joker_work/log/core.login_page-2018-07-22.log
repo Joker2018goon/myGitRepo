@@ -1,0 +1,64 @@
+2018-07-22 18:22:50,612 [ERROR] Joker-Log {login_page.py line:118}  ->>>>> 密码错误，找回密码(功能就简单些)
+2018-07-22 18:22:56,894 [INFO] Joker-Log {login_page.py line:123}  ->>>>> 密码找回成功
+2018-07-22 18:23:10,211 [ERROR] Joker-Log {login_page.py line:118}  ->>>>> 密码错误，找回密码(功能就简单些)
+2018-07-22 18:24:10,133 [WARNING] Joker-Log {login_page.py line:103}  ->>>>> 您输入的用户名不存在
+2018-07-22 18:24:23,073 [INFO] Joker-Log {login_page.py line:106}  ->>>>> 注册新用户
+2018-07-22 18:24:25,324 [INFO] Joker-Log {login_page.py line:111}  ->>>>> 重新跳转到登录页面
+2018-07-22 18:29:33,673 [WARNING] Joker-Log {login_page.py line:103}  ->>>>> 您输入的用户名不存在
+2018-07-22 18:29:43,248 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-07-22 18:30:08,217 [INFO] Joker-Log {login_page.py line:148}  ->>>>> 正在新增备忘事件
+2018-07-22 18:31:08,429 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:31:10,276 [INFO] Joker-Log {login_page.py line:151}  ->>>>> 查询备忘事件
+2018-07-22 18:31:30,760 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:31:43,991 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:34:21,736 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-07-22 18:34:23,416 [INFO] Joker-Log {login_page.py line:148}  ->>>>> 正在新增备忘事件
+2018-07-22 18:35:00,084 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:35:01,565 [INFO] Joker-Log {login_page.py line:151}  ->>>>> 查询备忘事件
+2018-07-22 18:35:06,937 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:35:15,349 [WARNING] Joker-Log {login_page.py line:157}  ->>>>> 修改备忘事件
+2018-07-22 18:35:51,444 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:35:54,124 [WARNING] Joker-Log {login_page.py line:157}  ->>>>> 修改备忘事件
+2018-07-22 18:36:42,965 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:36:44,734 [INFO] Joker-Log {login_page.py line:151}  ->>>>> 查询备忘事件
+2018-07-22 18:40:15,179 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:40:29,519 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-07-22 18:40:31,424 [INFO] Joker-Log {login_page.py line:151}  ->>>>> 查询备忘事件
+2018-07-22 18:40:37,692 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:40:42,995 [WARNING] Joker-Log {login_page.py line:157}  ->>>>> 修改备忘事件
+2018-07-22 18:41:17,627 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:41:19,642 [WARNING] Joker-Log {login_page.py line:157}  ->>>>> 修改备忘事件
+2018-07-22 18:43:25,553 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:43:27,299 [INFO] Joker-Log {login_page.py line:151}  ->>>>> 查询备忘事件
+2018-07-22 18:43:34,319 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:44:08,740 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:51:00,986 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-07-22 18:51:03,633 [ERROR] Joker-Log {login_page.py line:163}  ->>>>> strftime() argument 1 must be str, not time.struct_time
+2018-07-22 18:51:40,199 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:51:41,505 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:51:48,101 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-07-22 18:51:49,944 [ERROR] Joker-Log {login_page.py line:163}  ->>>>> strftime() argument 1 must be str, not time.struct_time
+2018-07-22 18:52:51,730 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:55:13,886 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-07-22 18:55:24,787 [ERROR] Joker-Log {login_page.py line:163}  ->>>>> [Errno 13] Permission denied: 'c:\\Users\\yanchunwei\\Desktop\\0301office-yanchunwei\\0301office-yanchunwei\\joker_demo\\download\\joker.pdf'
+2018-07-22 18:55:43,064 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:55:44,935 [ERROR] Joker-Log {login_page.py line:163}  ->>>>> [Errno 22] Invalid argument: 'c:\\Users\\yanchunwei\\Desktop\\0301office-yanchunwei\\0301office-yanchunwei\\joker_demo\\download\\joker-2018-07-22 18:55:44.pdf'
+2018-07-22 18:58:00,828 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:58:05,510 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:58:12,884 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-07-22 18:58:14,659 [ERROR] Joker-Log {login_page.py line:163}  ->>>>> [Errno 22] Invalid argument: 'c:\\Users\\yanchunwei\\Desktop\\0301office-yanchunwei\\0301office-yanchunwei\\joker_demo\\download\\joker2018_07_22 18:58:14.pdf'
+2018-07-22 18:58:59,682 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 18:59:08,240 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-07-22 18:59:10,333 [ERROR] Joker-Log {login_page.py line:163}  ->>>>> [Errno 22] Invalid argument: 'c:\\Users\\yanchunwei\\Desktop\\0301office-yanchunwei\\0301office-yanchunwei\\joker_demo\\download\\joker20180722 18:59:10.pdf'
+2018-07-22 19:00:27,672 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 19:00:33,745 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-07-22 19:00:35,880 [ERROR] Joker-Log {login_page.py line:163}  ->>>>> [Errno 2] No such file or directory: 'c:\\Users\\yanchunwei\\Desktop\\0301office-yanchunwei\\0301office-yanchunwei\\joker_demo\\download\\joker20180722.pdf'
+2018-07-22 19:01:34,018 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 19:01:40,360 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-07-22 19:03:00,534 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-07-22 19:04:11,110 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 19:04:17,587 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-07-22 19:04:19,347 [ERROR] Joker-Log {login_page.py line:163}  ->>>>> [Errno 2] No such file or directory: 'c:\\Users\\yanchunwei\\Desktop\\0301office-yanchunwei\\0301office-yanchunwei\\joker_demo\\download\\joker20180722.pdf'
+2018-07-22 19:05:07,444 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
+2018-07-22 19:05:17,337 [INFO] Joker-Log {login_page.py line:99}  ->>>>> 登录成功，跳转到操作页面
+2018-07-22 19:05:26,042 [INFO] Joker-Log {login_page.py line:169}  ->>>>> 退出系统
